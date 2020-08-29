@@ -8,4 +8,4 @@ WORKDIR /dockerize_django
 
 ADD . /dockerize_django
 
-RUN pip install requirements.txt
+RUN python -m pip install Django
